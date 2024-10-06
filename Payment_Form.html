@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="text-align: center;">
+    <form action="">
+        <fieldset>
+            <h1>PAYMENT FORM</h1>
+            <hr>
+            <P> REQUIRED FIELDS ARE FOLLOWED BY *</P>
+            <h2>CONTACT INFORMATION</h2>
+            <hr> <br>
+            <label for="name">NAME: *</label>
+            <input type="text" name="name" placeholder="Enter the name"> <br><br>
+            <fieldset>
+                <legend>GENDER* </legend>
+
+                <br>
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">FEMALE</label>
+                <input type="radio" name="gender" id="female">
+            </fieldset> <br><br>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" rows="4"></textarea> <br> <br>
+            <label for="email">E-mail: *</label>
+            <input type="email" name="email" id="email"> <br> <br>
+            <label for="pincode">PINCODE: *</label>
+            <input type="number" name="pincode" id="pincode"> <br> <br>
+            <h2>PAYMENT INFORMATION</h2>
+            <label for="cardtype">CARD TYPE: *</label>
+            <select name="cardtype" id="cardtype">
+                <option value="">--select a Card Type--</option>
+                <option value="Visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+            </select> <br> <br>
+            <label for="cardnumber">CARD NUMBER *</label>
+            <input type="number" placeholder="Card Number"><br> <br>
+            <label for="expiredate">EXPIRATION DATE: *</label>
+            <input type="date"> <br> <br>
+            <label for="cvv">CVV *</label>
+            <input type="text" placeholder="CVV"> <br> <br>
+
+            <input type="submit" value="Pay Now">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
